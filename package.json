@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "postcss src/css/app.css -o public/app.css"
+    "dev": "npx mix watch"
   },
   "repository": {
     "type": "git",
@@ -23,6 +23,7 @@
     "tailwindcss": "^2.1.2"
   },
   "devDependencies": {
+    "laravel-mix": "^6.0.18",
     "postcss-cli": "^8.3.1"
   }
 }

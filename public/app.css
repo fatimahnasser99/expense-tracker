@@ -31834,7 +31834,6 @@ video {
 .center {
   margin: auto;
   width: 40%;
-  vertical-align: middle;
 }
 
 @media (min-width: 640px) {
